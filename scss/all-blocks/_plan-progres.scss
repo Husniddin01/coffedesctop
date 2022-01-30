@@ -1,0 +1,74 @@
+.plan-progres {
+
+    &__container {
+      margin-bottom: 169px;
+        color: #FEFCF7;
+    }
+    
+    &__wrapper {
+        background-color: #2C343E;
+        padding: 91px 150px 109px 85px;
+    }
+
+    &__list {
+        display: flex;
+        margin-bottom: 64px; 
+    }
+
+    &__item {
+        width: 380px;
+    }
+
+    &__shapes {
+        display: flex;
+        align-items: center;
+        margin-bottom: 67px;
+    }
+
+    &__cricle {
+
+        display: inline-block;
+    width: 31px;
+    height: 31px;
+    background-color: #2C343E;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+    }
+
+    &__line {
+        border: 2px solid #FDD6BA;
+        display: block;
+        flex-grow: 1;
+    }
+
+    &__namber {
+        font-family: Fraunces ;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        margin-bottom: 38px;
+    }
+
+    &__list--heading {
+        max-width: 255px;
+        margin: 0;
+        margin-bottom: 42px;
+        font-family: 'Fraunces',Arial,sans-serif ;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+       
+    }
+
+    &__list--text {
+        width: 285px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        
+    }
+
+}
+
+

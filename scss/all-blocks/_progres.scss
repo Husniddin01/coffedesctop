@@ -1,0 +1,67 @@
+.progres__container {
+    margin-bottom: 200px; 
+}
+.progres__wrapper{
+    padding-left: 85px;
+}
+.progres__heading {
+    margin: 0;
+    margin-bottom: 80px;
+    font-family: 'Fraunces',Arial,sans-serif ;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+.progres__list {
+    display: flex;
+     margin-bottom: 64px; 
+}
+.progres__item {
+    width: 380px;
+}
+.progres__shapes {
+    display: flex;
+    align-items: center;
+    margin-bottom: 67px;
+}
+.progres__cricle {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+}
+.progres__line {
+    border: 2px solid #FDD6BA;
+    display: block;
+    flex-grow: 1;
+}
+.progres__namber {
+    font-family: Fraunces ;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-bottom: 38px;
+    
+}
+.progres__list--heading {
+    max-width: 255px;
+    margin: 0;
+    margin-bottom: 42px;
+    font-family: 'Fraunces',Arial,sans-serif ;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    
+}
+.progres__list--text {
+    width: 285px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}

@@ -1,0 +1,33 @@
+.header{
+    margin-bottom: 44px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo-img {
+    width: 236px;
+    height: 26px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__item {
+    margin-left: 33px;
+    
+}
+
+.header__link {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #83888F;
+}

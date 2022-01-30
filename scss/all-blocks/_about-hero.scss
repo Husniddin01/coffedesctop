@@ -1,0 +1,33 @@
+.about-hero{
+  
+    &__container{
+        height: 450px;
+background-image: url(./../images/abaut-bc@1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 10px;
+margin-bottom: 168px;
+    }
+    &__wrapper{
+        padding: 137px 0 137px 85px;
+        width: 445px;
+        height: 176px;   
+    }
+    &__heading{
+        margin: 0;
+        padding: 0;
+        font-family: 'Fraunces',Arial,sans-serif ;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin-bottom: 24px;
+    }
+    &__text{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+}
