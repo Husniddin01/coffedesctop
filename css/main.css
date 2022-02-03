@@ -460,6 +460,27 @@ img {
   color: #83888F;
 }
 
+.header__burger {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .header__list {
+    display: none;
+  }
+  .header__burger {
+    display: block;
+  }
+  .header__burger--img {
+    width: 16px;
+    height: 15px;
+  }
+  .logo-img {
+    width: 163px;
+    height: 18px;
+  }
+}
+
 .hero__container {
   height: 600px;
   border-radius: 10px;
@@ -470,7 +491,7 @@ img {
   background-image: url("./../images/Bitmap.jpg");
   background-repeat: no-repeat;
   background-position: calc(50%) center;
-  padding: 117px 0 116px 85px;
+  padding: 117px 702px 116px 85px;
 }
 
 .hero__heading {
@@ -512,6 +533,31 @@ img {
   background-color: #0E8784;
   border-radius: 6px;
   color: #FEFCF7;
+}
+
+@media only screen and (max-with: 1000px) {
+  .hero__container {
+    min-width: 1000px;
+    width: 100%;
+    margin-bottom: 145px;
+  }
+  .hero__box {
+    padding: 117px 0 116px 85px;
+  }
+  .hero__heading {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 24px;
+  }
+  .hero__text {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+  .hero__button {
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
 
 .collection {

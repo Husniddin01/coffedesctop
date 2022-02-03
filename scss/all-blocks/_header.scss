@@ -31,3 +31,37 @@
     text-transform: uppercase;
     color: #83888F;
 }
+.header__burger{
+    display: none;
+}
+@media only screen and (max-width: 700px) {
+    .header {
+        
+        &__container {
+        }
+        
+        &__list {
+            display: none;
+            
+        }
+        
+        &__item {
+        }
+        
+        &__link {
+        }
+        
+        &__burger {
+            display:block;
+        }
+        &__burger--img{
+            width: 16px;
+            height: 15px;
+        }
+    }
+    .logo-img{
+        width: 163px;
+        height: 18px;
+    }
+    
+}

@@ -1,4 +1,5 @@
 .hero__container {
+    
     height: 600px;
     border-radius: 10px;
     margin-bottom: 167px;
@@ -7,7 +8,7 @@
 .hero__box{
     background-image: url("./../images/Bitmap.jpg");background-repeat: no-repeat;
     background-position: calc(50%) center;
-    padding: 117px 0 116px 85px;
+    padding: 117px 702px 116px 85px;
 }
 
 .hero__heading {
@@ -49,4 +50,37 @@
     background-color: #0E8784;
     border-radius: 6px;
     color: #FEFCF7;
+}
+@media only screen and(max-with:1000px) {
+    .hero {
+        
+        &__container {
+            min-width: 1000px;
+            width: 100%;
+            margin-bottom: 145px;
+            
+        }
+        
+        &__box {
+            padding: 117px 0 116px 85px;
+        }
+        
+        &__heading {
+            font-size: 48px;
+            line-height: 48px;
+            margin-bottom: 24px;
+        }
+        
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 40px;
+        }
+        
+        &__button {
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+    
 }
