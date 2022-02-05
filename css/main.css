@@ -460,6 +460,10 @@ img {
   color: #83888F;
 }
 
+.header__link:hover {
+  color: #333D4B;
+}
+
 .header__burger {
   display: none;
 }
@@ -482,12 +486,12 @@ img {
 }
 
 .hero__container {
-  height: 600px;
-  border-radius: 10px;
+  height: auto;
   margin-bottom: 167px;
 }
 
 .hero__box {
+  border-radius: 10px;
   background-image: url("./../images/Bitmap.jpg");
   background-repeat: no-repeat;
   background-position: calc(50%) center;
@@ -501,7 +505,6 @@ img {
   font-size: 72px;
   line-height: 72px;
   width: 493px;
-  height: 145px;
   margin-bottom: 32px;
   color: #FEFCF7;
 }
@@ -513,7 +516,6 @@ img {
   line-height: 26px;
   opacity: 0.8;
   width: 445px;
-  height: 78px;
   margin-bottom: 56px;
   color: #FEFCF7;
   opacity: 0.8;
@@ -535,16 +537,17 @@ img {
   color: #FEFCF7;
 }
 
-@media only screen and (max-with: 1000px) {
+@media only screen and (max-width: 900px) {
   .hero__container {
-    min-width: 1000px;
-    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 145px;
   }
   .hero__box {
-    padding: 117px 0 116px 85px;
+    padding: 104px 0 104px 58px;
   }
   .hero__heading {
+    max-width: 330px;
     font-size: 48px;
     line-height: 48px;
     margin-bottom: 24px;
@@ -553,9 +556,60 @@ img {
     font-size: 15px;
     line-height: 25px;
     margin-bottom: 40px;
+    max-width: 398px;
   }
   .hero__button {
     font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .hero__container {
+    margin-bottom: 120px;
+  }
+  .hero__box {
+    padding: 100px 24px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .hero__container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hero__box {
+    padding: 100px 24px;
+    max-width: 328px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero__heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .hero__text {
+    font-size: 15px;
     line-height: 25px;
   }
 }
